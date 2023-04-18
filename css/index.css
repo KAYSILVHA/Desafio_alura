@@ -5,8 +5,8 @@ header{
 
 .logo{
     display: block;
-    width: 40%;
-    height: 100%;
+    width: 30%;
+    height: 90%;
     display: block;
     background-image: url('../imagens/logo.png');
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@ textarea {
     color: #af0404;
     padding: 20px 40px;  
     width: 800px;
-    height: 700px;
+    height: 600px;
 }
 
 textarea:focus{
@@ -137,7 +137,7 @@ textarea:hover{
     background-image: url('../imagens/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
+    height: 800px;
     width: 500px;
     box-sizing: border-box;
     display: inline-block;
