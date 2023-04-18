@@ -1,23 +1,26 @@
-body{
-    background-color: #000000;
-    margin: 8px;
-
+header{
+    width: 100%;
+    height: 90px;
 }
 
-
 .logo{
-    margin-top: 10px;
+    display: block;
     width: 40%;
-    height: 70px;
+    height: 100%;
     display: block;
     background-image: url('../imagens/logo.png');
     background-repeat: no-repeat;
-    
 }
+
+body{
+    background-color: #000000;
+
+}
+
 main{
-    margin: 30px;
     font-family: 'Inter', sans-serif;
-    width: 50%; 
+    margin: 30px;
+    width: 100vh; 
     padding:  20px 25px 8px;
     display: inline-block;
     box-sizing: border-box;
@@ -80,11 +83,11 @@ textarea:hover{
 .img-aviso{ 
     width: 14px;
     height: 14px;  
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .img-l{
-  vertical-align: baseline;
+  vertical-align: bottom;
 }
 
 
