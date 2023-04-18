@@ -20,12 +20,13 @@
     </div>
     <main>
         <div class="mensagem">
-            <textarea class="texto" cols="70" rows="30" placeholder="Digite sua mensagem secreta..."></textarea>  
+            <textarea  oninput="this.value = this.value.replace(/[^a-z ]/g, '')" class="texto" cols="70" rows="30" placeholder="Digite sua mensagem secreta..."></textarea>  
         </div>
 
         
         <div class="aviso">
-            <p><img  class="img-aviso" src="./imagens/exclamacao.png" alt=""> Apenas letras minúsculas e sem acento.</p><p class="mensagem-kira">Não deixe o <img class="img-l" src="./imagens/l1.png" alt=""> te pegar, pequeno Shinigami!</p>        
+            <p><img  class="img-aviso" src="./imagens/exclamacao.png" alt=""> Apenas letras minúsculas e sem acento.
+                <strong>Não deixe o <img class="img-l" src="./imagens/l1.png" alt=""> te pegar, pequeno Shinigami!</strong> </p>       
             </div>
             
             <div class="button">
@@ -45,9 +46,8 @@
             
         </div>
 
-        <script>
+        <script></script>
 
-        </script>
 </body>
 <footer>
 
