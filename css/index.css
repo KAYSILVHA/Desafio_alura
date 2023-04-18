@@ -155,6 +155,28 @@ textarea:hover{
     font-size: 25px;
 }
 
+
+footer { 
+    height: 400px;
+	text-align: center;
+	background: url("../imagens/back-footer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+	padding: 40px 0;
+}
+
+
+footer img{
+    padding-top: 50px;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
 /*
 @media (max-width: 360px) {
     .logo{
