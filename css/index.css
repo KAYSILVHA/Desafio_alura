@@ -7,8 +7,11 @@ body{
 
 .logo{
     margin-top: 10px;
-    width: 70px;
+    width: 40%;
+    height: 70px;
     display: block;
+    background-image: url('../imagens/logo.png');
+    background-repeat: no-repeat;
     
 }
 main{
@@ -33,6 +36,8 @@ textarea {
     font-family: 'Inter', sans-serif;
     color: #af0404;
     padding: 20px 40px;  
+    width: 800px;
+    height: 700px;
 }
 
 textarea:focus{
@@ -54,8 +59,7 @@ textarea:hover{
     padding: 0 150px;
     display: flex;
     padding: 17px;
-    gap: 8px;
-    flex-direction: row; 
+   
 }
 
 .aviso p{
@@ -70,18 +74,17 @@ textarea:hover{
 
 .aviso strong{
     font-weight: bolder;
-    padding: 0;
-    font-size: 12px;      
+    padding: 0;   
 }
 
 .img-aviso{ 
     width: 14px;
     height: 14px;  
-    vertical-align: bottom;
+    vertical-align: top;
 }
 
 .img-l{
-  vertical-align: text-bottom;
+  vertical-align: baseline;
 }
 
 
@@ -149,4 +152,94 @@ textarea:hover{
     font-size: 25px;
 }
 
+/*
+@media (max-width: 360px) {
+    .logo{
+        background-image: url('../imagens/logo-min.png');
 
+    }
+    body{
+        margin: 8px;
+    }
+    main{
+        display: flex;
+        margin: 10px;
+        font-family: 'Inter', sans-serif;
+        width: 100%; 
+        padding:  10px 15px 5px;
+        display: inline-block;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .mensagem{
+        padding: 0 20px 0 20px;       
+    }
+
+    textarea {
+        height: 300px;
+        width: 200px;
+        resize: none;
+        border: none;
+        border-radius: 8px;
+        background-color: transparent;
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+        color: #af0404;
+        padding: 10px 20px;  
+    }
+    .aviso{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .aviso p{
+        font-family: 'Inter', sans-serif;  
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        color: #b12614da;
+    }
+    
+    .button{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+
+    }
+    
+    .button input{
+        width: 128px;
+        height: 47px;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 19px;  
+    }
+
+    .resposta{
+        background-image: url('../imagens/background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        width: 300px;
+        border-radius: 32px;
+        padding: 20px 40px;  
+        font-family: 'Inter', sans-serif;
+        color: #d4a3a3;
+        margin: 10px;
+    }
+    .output{
+        background-color: #000000;
+        max-height: 350px;
+        max-width: 200px;
+        font-size: 15px;
+    }
+    
+    
+    
+} */
